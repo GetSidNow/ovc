@@ -14,13 +14,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
   <style>
     :root {
-      /* Brand Colors: Primary: #8dc7c2, Secondary: #ffffff, Tertiary: #000000 */
-      --accent-color: #8dc7c2; /* Primary */
+      /* Brand Colors: Primary: #8bbf22, Secondary: #ffffff, Tertiary: #000000 */
+      --accent-color: #8bbf22; /* Primary - Bright apple green */
       --bg-color: #ffffff;     /* Secondary */
       --text-color: #000000;   /* Tertiary */
-      --gradient-start: #e0f7fa; /* Light turquoise */
+      --gradient-start: #f5fae6; /* Light green tint */
       --gradient-end: #ffffff; /* White */
-      --turquoise-light: #b2ebf2;
+      --green-dark: #5a7a17;   /* Darker green for text */
       --sand-color: #fff8e1;
     }
     /* Use the modern Poppins font for a friendly, modern look */
@@ -43,7 +43,7 @@
     }
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 12px 30px rgba(141, 199, 194, 0.25);
+      box-shadow: 0 12px 30px rgba(139, 191, 34, 0.3);
     }
     /* Modern tab styling with extra spacing */
     .tab {
@@ -124,7 +124,7 @@
     .restaurant {
       margin-bottom: 1.5rem;
       padding-bottom: 1rem;
-      border-bottom: 1px solid rgba(141, 199, 194, 0.2);
+      border-bottom: 1px solid rgba(139, 191, 34, 0.2);
     }
     .restaurant:last-child {
       border-bottom: none;
@@ -132,7 +132,7 @@
     .restaurant-name {
       font-weight: 600;
       margin-bottom: 0.25rem;
-      color: #2a5f5a;
+      color: #5a7a17;
     }
     .restaurant-desc {
       font-style: italic;
@@ -181,7 +181,7 @@
       -webkit-backdrop-filter: blur(10px);
     }
     .category-title {
-      color: #2a5f5a;
+      color: #5a7a17;
       font-weight: 600;
       margin-top: 1.5rem;
       margin-bottom: 0.75rem;
@@ -202,15 +202,15 @@
     <header class="text-center mb-10 animate__animated animate__fadeIn">
       <!-- Action Buttons: Text us and Website -->
       <div class="flex flex-row justify-center items-center gap-4 mb-6 overflow-x-auto">
-        <a href="sms:+13233815850" class="inline-block font-bold py-3 px-6 rounded-full shadow-md hover:shadow-lg transition-all" style="background-color: var(--accent-color); color: #ffffff;">
+        <a href="sms:+13233815850" class="inline-block font-bold py-3 px-6 rounded-full shadow-md hover:shadow-lg transition-all" style="background-color: var(--accent-color); color: #000000;">
           Text us
         </a>
-        <a href="https://www.littleislandhotels.com/the-ocean-view" target="_blank" class="inline-block font-bold py-3 px-6 rounded-full shadow-md hover:shadow-lg transition-all" style="background-color: var(--accent-color); color: #ffffff;">
+        <a href="https://www.littleislandhotels.com/the-ocean-view" target="_blank" class="inline-block font-bold py-3 px-6 rounded-full shadow-md hover:shadow-lg transition-all" style="background-color: var(--accent-color); color: #000000;">
           Our Website
         </a>
       </div>
       <!-- One-line Welcome Text -->
-      <p class="text-lg text-gray-700">Welcome to The Ocean View Club – the childhood home of our current owners and a charming slice of Harbour Island’s vibrant history.</p>
+      <p class="text-lg text-gray-700">Welcome to The Ocean View Club – your paradise getaway in the Bahamas!</p>
     </header>
 
     <!-- Navigation with Horizontal Scroll Arrows -->
